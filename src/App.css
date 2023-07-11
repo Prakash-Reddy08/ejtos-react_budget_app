@@ -32,7 +32,46 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.dropdown {
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+}
+
+.add-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+}
+
+.red-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  padding-bottom: 6px;
+  padding-left: 3px;
 }
